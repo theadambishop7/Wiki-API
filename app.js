@@ -3,7 +3,6 @@ import bodyParser from 'body-parser';
 import morgan from 'morgan';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import e from 'express';
 
 const port = 3000;
 const app = express();
